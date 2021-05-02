@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xml 格式说明-->
+
+<books>
+
+    <book sn = "123">
+        <name>禧羊羊与灰太狼</name>
+        <autor>禧羊羊</autor>
+        <price>10</price>
+    </book>
+
+    <book sn = "234">
+        <name><![CDATA[《禧羊羊自传》]]]></name> <!--CDATA文本区域-->
+        <autor>黄志国</autor>
+        <price>15</price>
+    </book>
+
+</books>
