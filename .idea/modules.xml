@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/01_jQuery/01_jQuery.iml" filepath="$PROJECT_DIR$/01_jQuery/01_jQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_jQuery_1/01_jQuery_1.iml" filepath="$PROJECT_DIR$/01_jQuery_1/01_jQuery_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_jQuery_2/01_jQuery_2.iml" filepath="$PROJECT_DIR$/01_jQuery_2/01_jQuery_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_web/02_web.iml" filepath="$PROJECT_DIR$/02_web/02_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_xml/02_xml.iml" filepath="$PROJECT_DIR$/02_xml/02_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_servlet/03_servlet.iml" filepath="$PROJECT_DIR$/03_servlet/03_servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb.iml" />
     </modules>
   </component>
