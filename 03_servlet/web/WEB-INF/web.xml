@@ -3,7 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
-
+    <!--context-parm是上下文参数，属于整个web工程-->
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>context</param-value>
+    </context-param>
 
     <!-- servlet标签给Tomcat配置Servlet程序-->
     <servlet>
@@ -11,6 +15,15 @@
         <servlet-name>HellowServlet</servlet-name>
         <!--servlet-class是Servlet程序的全类名-->
         <servlet-class>com.zhiguo.servlet.HellowServlet</servlet-class>
+
+        <!--init是初始化参数-->
+
+        <init-param>
+            <!--初始化参数名-->
+            <param-name>username</param-name>
+            <!--初始化参数值-->
+            <param-value>root</param-value>
+        </init-param>
     </servlet>
 
     <!--servlet-mapping标签给servlet程序配置访问地址-->
@@ -21,9 +34,35 @@
         url-pattern标签配置访问地址</br>
         / 斜杠在服务器解析的时候，表示地址为:http://ip:port/工程路径 </br>
         / hello 表示地址为：http://ip:port/工程路径/hellow   </br>
-
         -->
         <url-pattern>/hellow</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>HellowServlet2</servlet-name>
+        <servlet-class>com.zhiguo.servlet.HellowServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HellowServlet2</servlet-name>
+        <url-pattern>/hellow2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ContextServlet</servlet-name>
+        <servlet-class>com.zhiguo.servlet.ContextServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextServlet</servlet-name>
+        <url-pattern>/contextservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ContextServlet1</servlet-name>
+        <servlet-class>com.zhiguo.servlet.ContextServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextServlet1</servlet-name>
+        <url-pattern>/contextservlet1</url-pattern>
     </servlet-mapping>
 </web-app>
 
