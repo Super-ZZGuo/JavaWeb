@@ -25,7 +25,5 @@ public class RequestAPIServlet extends HttpServlet {
 //        getMethod() 获取请求的方式GET或POST
         System.out.println("请求方式->"+req.getMethod());
 
-
-
     }
 }

@@ -19,6 +19,7 @@ public class Response1 extends HttpServlet {
         //设置响应头，说明新的地址在哪
         // resp.setHeader("Location","http://localhost:8080/03_servlet_2/response2");
 
+        //一步到位，推荐使用
         resp.sendRedirect("http://localhost:8080/03_servlet_2/response2");
     }
 }
