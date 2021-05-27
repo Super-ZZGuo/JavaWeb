@@ -17,6 +17,7 @@ public class CookiesUtils  {
         }
 
         for(Cookie cookie : cookies){
+            
             if(name.equals(cookie.getName())){
                 return cookie;
             }
