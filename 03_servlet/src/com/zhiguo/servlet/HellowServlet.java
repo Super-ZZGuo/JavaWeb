@@ -13,6 +13,8 @@ public class HellowServlet implements Servlet {
         System.out.println("执行servlet构造函数");
     }
 
+
+
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
         System.out.println("执行init初始化方法");

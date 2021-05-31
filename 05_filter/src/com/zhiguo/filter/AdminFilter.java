@@ -2,7 +2,7 @@ package com.zhiguo.filter;/*
 @date 2021/5/27 - 3:11 下午
 */
 
-import com.sun.codemodel.internal.fmt.JStaticJavaFile;
+
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -21,9 +21,11 @@ public class AdminFilter implements Filter{
 
         //获取Filter的名称filter-name的内容
         System.out.println("filter-name的值是:" + filterConfig.getFilterName());
+
         //获取在web.xml中配置的init-param初始化参数
         System.out.println("初始化参数上username的值是:" + filterConfig.getInitParameter("username"));
         System.out.println("初始化参数url的值是:" + filterConfig.getInitParameter("url"));
+
         //获取ServletContext对象
         System.out.println(filterConfig.getServletContext());
 
@@ -60,4 +62,6 @@ public class AdminFilter implements Filter{
     public void destroy() {
 
     }
+
+
 }

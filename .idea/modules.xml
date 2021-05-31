@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/03_servlet_2/03_servlet_2.iml" filepath="$PROJECT_DIR$/03_servlet_2/03_servlet_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_cookie_session/04_cookie_session.iml" filepath="$PROJECT_DIR$/04_cookie_session/04_cookie_session.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_filter/05_filter.iml" filepath="$PROJECT_DIR$/05_filter/05_filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_json_ajax_i18n/06_json_ajax_i18n.iml" filepath="$PROJECT_DIR$/06_json_ajax_i18n/06_json_ajax_i18n.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb.iml" />
     </modules>
   </component>
